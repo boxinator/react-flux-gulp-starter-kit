@@ -1,0 +1,28 @@
+{
+	"name": "react-flux-gulp-starter-kit",
+	"version": "1.0.0",
+	"description": "A basic skeleton project for react, flux, and gulp.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alex Ramos",
+	"license": "ISC",
+	"dependencies": {
+		"babelify": "^7.2.0",
+		"browserify": "^13.0.0",
+		"gulp": "^3.9.1",
+		"gulp-babel": "^6.1.2",
+		"gulp-less": "^3.0.5",
+		"gulp-livereload": "^3.8.1",
+		"gulp-mocha": "^2.2.0",
+		"gulp-webserver": "^0.9.1",
+		"react": "^0.14.7",
+		"react-dom": "^0.14.7",
+		"require-dir": "^0.3.0",
+		"vinyl-source-stream": "^1.1.0"
+	},
+	"devDependencies": {
+
+	}
+}
