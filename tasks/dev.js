@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 var livereload = require('gulp-livereload');
 
-gulp.task('webserver:dev', function() {
+gulp.task('webserver', function() {
 	gulp.src('./')
 		.pipe(webserver({
 			livereload: true,
